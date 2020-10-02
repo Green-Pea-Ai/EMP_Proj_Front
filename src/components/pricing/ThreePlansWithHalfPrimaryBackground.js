@@ -70,51 +70,49 @@ const WhiteBackgroundOverlay = tw.div`absolute inset-x-0 bottom-0 h-1/6 lg:h-1/3
 
 export default ({
   subheading = "",
-  heading = "Affordable Pricing",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  heading = "당신에게 맞는 빵을 추천받아보세요.",
+  description = "아래 양식을 작성하고 제출 버튼을 누르시면 취향에 맞는 빵을 추천해드립니다.",
   plans = null,
-  primaryButtonText = "Create Server"
+  primaryButtonText = "제출(버튼은 중앙에 하나)"
 }) => {
   const defaultPlans = [
     {
-      name: "Personal",
-      price: ["$9", ".99/month"],
-      oldPrice: "$11.99",
-      description: "Perfect for when you want to host your personal blog or a hobby side project.",
-      features: ["2 Core Xeon CPU", "1 GB RAM", "30 GB SSD", "1 TB Transfer", "99.9% Uptime"],
+      name: "날씨",
+      price: ["오늘의 날씨는 어떤가요?"],
+      oldPrice: "0",
+      description: "오늘의 날씨를 입력해주세요.",
+      features: ["맑음", "흐림", "눈", "비", "텍스트 박스", "드롭다운 메뉴"],
       url: "https://google.com"
     },
     {
-      name: "Business",
-      price: ["$15", ".99/month"],
-      oldPrice: "$19.99",
-      description: "Perfect for hosting blogs with lots of traffic or heavy development projects",
+      name: "좋아하는 맛",
+      price: ["입맛"],
+      oldPrice: "0",
+      description: "당신이 좋아하는 맛은 무엇인가요?",
       features: [
-        "4 Core Xeon CPU",
-        "2 GB RAM",
-        "100 GB SSD",
-        "3 TB Transfer",
-        "99.9% Uptime",
-        "Free Domain & SSL",
-        "Free DNS Management"
+        "단맛",
+        "짠맛",
+        "단짠",
+        "고소한맛",
+        "아무거나",
+        "텍스트 박스(직접 입력)",
+        "드롭다운 메뉴"
       ],
       url: "https://google.com",
       featured: "Most Popular"
     },
     {
-      name: "Enterprise",
-      price: ["$25", ".99/month"],
-      oldPrice: "$29.99",
-      description: "Perfect for hosting production websites & API services with high traffic load",
+      name: "기분",
+      price: ["오늘 기분은 어떤가요?"],
+      oldPrice: "0",
+      description: "오늘의 기분에 맞게 빵을 추천해드릴게요.",
       features: [
-        "8 Core Xeon CPU",
-        "8 GB RAM",
-        "300 GB SSD",
-        "Unlimited Transfer",
-        "99.99% Uptime",
-        "Free Domain & SSL",
-        "Free DNS Management",
-        "Free Offsite Backup"
+        "좋음",
+        "나쁨",
+        "평범함",
+        "모름",
+        "텍스트 박스",
+        "드롭다운 메뉴"
       ],
       url: "https://google.com"
     }

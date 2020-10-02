@@ -29,26 +29,26 @@ const Answer = tw(motion.div)`hidden text-sm font-normal mt-4 text-gray-300`;
 
 export default ({
   subheading = "",
-  heading = "Frequently Asked Questions",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  heading = "당신이 좋아하는 빵은 '카스테라'입니다.",
+  description = "우리 벌꿀을 넣어 부드럽고 폭신폭신한 카스테라. 바로 밑에 사진 들어감",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
-      answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+      question: "영양정보",
+      answer: 
+        "총 내용량 (80g) 255 kcal, 총 내용량당 (% : 1일 영양성분기준치에 대한 비율) - 나트륨 : 80mg / 4% · 당류 : 21g /21% · 포화지방 : 2.8g / 19% · 단백질 : 6g / 11%"
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "알레르기 정보",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "우유, 계란, 밀, 대두 함유"
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
+      question: "카스테라를 좋아하시는 분들은 이런 제과도 좋아하세요.",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "리얼 후레쉬 베리 케이크 (L), 블루베리요거트 듬뿍케이크, 시간의정성 진(眞)카스테라, 봉봉오쇼콜라(대)"
     },
     {
-      question: "Where can I reach you for support ?",
+      question: "추천 결과가 맘에 드시나요?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
@@ -58,7 +58,7 @@ export default ({
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-      question: "Where are the servers located ?",
+      question: "결과가 마음에 들지 않으신다면 아래 버튼을 눌러 챗봇에게 의견을 남겨주세요.(우측하단 동그라미 버튼)",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     }
